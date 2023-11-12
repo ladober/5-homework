@@ -1,73 +1,137 @@
 /* header */
 
-.header-our-team {
-    margin-top: 50px;
+.header-article {
     text-align: center;
     font-family: 'Inter';
+    margin-top: 80px;
 }
 
-.header-our-team span {
+.header-article span {
     font-weight: 600;
-    font-size: 16px;
+    size: 16px;
+    color: #282828;
+}
+.header-article article {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 54px;
     color: #282828;
 }
 
-.header-our-team article {
-    padding: 10px;
-    font-weight: 600;
-    font-size: 50px;
-    color: #282828;
-}
-
-.header-span {
-    padding: 15px;
-    text-align: center;
+.header-article span-1 {
     font-weight: 400;
     font-size: 20px;
     color: #5F6980;
-    font-family: 'Inter';
+    line-height: 35px;
 }
 
 /* main */
+
 .main-section {
     display: flex;
-    justify-content: center;
-    margin-top: 48px;
+    justify-content: space-around;
+    margin: 30px;
 }
 
 .article-items {
+    border: 1px solid;
+    border-color: #EAECF0;
+    margin-top: 40px;
     max-width: 310px;
-    max-height: 230px;
-    padding: 15px;
+    max-height: 430px;
 }
 
 .h4 {
-    padding: 10px;
+    position: relative;
     font-family: "Inter";
     font-weight: 600;
     font-size: 18px;
     color: #282828;
+    bottom: 15px;
+    padding:5px;
 }
 
 .span {
     color: #3E3E59;
-    padding: 10px;
+    padding: 5px;
     font-family: "Inter";
     font-weight: 400;
     font-size: 14px;
+    position: relative;
+    bottom:40px;
 }
 
 .p {
-    padding: 10px;
+    padding: 5px;
     font-family: "Inter";
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    color: #5F6980
+    color: #5F6980;
+    position: relative;
+    bottom: 50px;
 }
 
 .a {
     position:relative;
     padding: 5px;
-    top: 15px;
+    bottom: 40px;
+}
+
+.main-section-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: #53535354;
+    justify-content: space-around;
+    height: 350px;
+}
+
+/* footer article-1 */
+
+.footer-article-1 {
+    width: 306.05px;
+    margin-top: 58px;
+}
+
+.footer-article-1 article {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter';
+    margin-top: 35px;
+}
+
+.social-media {
+    display: flex;
+    width: 104px;
+    margin-top: 30px;
+    justify-content:space-between;
+}
+
+/* footer article-2 */
+
+.web-link-names {
+    margin-top: 70px;
+    padding-bottom: 15px;
+}
+
+.web-menu-li {
+    padding-top: 30px;
+}
+.website-link {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+
+.website-links-menu-font {
+    font-weight: 400;
+    font-size: 14px;
+    color: #535353;
 }
